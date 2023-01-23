@@ -8,6 +8,8 @@
     @inertiaHead
 </head>
 <body>
-    @inertia
+    <div class="hold-transition login-page">
+        @inertia
+    </div>
 </body>
 </html>

@@ -1,11 +1,13 @@
 <template>
-  <div>
-    <h1>Product Management</h1>
-  </div>
+  <authenticated-layout>
+    <h1>TEST</h1>
+  </authenticated-layout>
 </template>
 
 <script>
+import AuthenticatedLayout from '../Layouts/AuthenticatedLayout.vue'
 export default {
+  components: { AuthenticatedLayout },
 
 }
 </script>
